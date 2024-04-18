@@ -125,6 +125,9 @@ celerybeat.pid
 env/
 venv/
 ENV/
+keys/
+exp/
+logs/
 env.bak/
 venv.bak/
 
@@ -134,6 +137,9 @@ venv.bak/
 
 # Rope project settings
 .ropeproject
+
+# Local SQL DB 
+data.db
 
 # mkdocs documentation
 /site
